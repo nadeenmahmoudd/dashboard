@@ -1,0 +1,56 @@
+<aside class="sidebar d-flex flex-column p-3 shadow" [class.active]="isVisible">
+  <a class="logo mb-5" [routerLink]="'/dashboard'"><img src="/assets/images/logo/Manager pro logo.png" alt="logo" class="pointer"></a>
+    <ul class="nav flex-column mb-3">
+      <li class="nav-item">
+        <a routerLink="/dashboard" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-home me-2"></i> Dashboard
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/orders" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-shopping-cart me-2"></i> Orders
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/users" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-users me-2"></i> Users
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/items" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-box-open me-2"></i> Items
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/transactions" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-exchange-alt me-2"></i> Transactions
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/reports" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-chart-line me-2"></i> Reports
+        </a>
+      </li>
+    </ul>
+  
+    <hr />
+  
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a routerLink="/messages" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-envelope me-2"></i> Messages
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/support" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-headset me-2"></i> Support
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/settings" routerLinkActive="active" class="nav-link">
+          <i class="fas fa-cog me-2"></i> Settings
+        </a>
+      </li>
+    </ul>
+  </aside>
+  

@@ -1,6 +1,64 @@
-# AdminDashboard
+# Dashboard Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.3.
+A modern, responsive admin dashboard built with Angular. Includes real-time data visualization using charts, user management, and routing functionality.
+
+## Setup Instructions
+
+To get started with this project locally:
+
+1. Clone the repository:
+git clone https://github.com/nadeenmahmoudd/dashboard
+
+2. Navigate into the project folder:
+cd admin-dashboard
+
+
+3. Install the project dependencies:
+npm install
+
+4. Run the project locally:
+ng serve
+
+5. Open your browser and go to `http://localhost:4200` to view the dashboard.
+
+## Architecture
+
+This project is built with Angular and follows a modular approach. The main architecture includes:
+
+- **Modules**: 
+- The app is divided into different modules like `DashboardModule`, `OrdersModule`, etc.
+- **Components**:
+- `DashboardComponent`: Displays key metrics and charts.
+- `OrdersComponent`: Display all orders .
+- **Services**:
+- `OrdersService`: Handles API calls (mocked API).
+- `ChartService`: Provides chart data for line and bar charts.
+- **Routing**: 
+- The app uses Angular's built-in routing to navigate between different views.
+
+## Libraries Used
+
+- **Angular**: The core framework for building the app.
+- **ng2-charts**: For rendering line and bar charts.
+- **Angular Material**: For UI components and responsive design.
+- **RxJS**: For handling asynchronous operations.
+
+## Design Choices
+
+- **Responsive Design**: The dashboard is designed to be mobile-friendly using Angular Material's grid system.
+- **Charting Library**: ng2-charts was chosen because of its simplicity and flexibility for creating interactive charts.
+
+## Notes on Trade-offs
+
+- Used mock APIs for simplicity. A real backend API can be integrated later.
+- The charting library is limited in terms of customization, but it's sufficient for the needs of this dashboard.
+
+## Additional Notes
+
+- Some of the features, such as user authentication, have not been implemented yet.
+- You can find the API mock data in the `src/assets/` folder.
+
+---
 
 ## Development server
 
@@ -8,52 +66,3 @@ To start a local development server, run:
 
 ```bash
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

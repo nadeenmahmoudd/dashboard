@@ -1,0 +1,16 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0px;
+  }
+  .title{
+    color: #93A3AB;
+    font-size: 14px;
+  }

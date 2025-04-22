@@ -1,0 +1,54 @@
+   <!-- <div class="chart-container d-flex gap-5">
+    <h5 class="mb-3">Visits</h5>
+
+    <ul class="time-range d-flex list-unstyled gap-3">
+      <li
+        *ngFor="let range of timeRanges"
+        [class.active]="selectedRange === range.value"
+        (click)="onTimeRangeClick(range.value)"
+      >
+        {{ range.label }}
+      </li>
+    </ul>
+  </div>
+  <div class="chart-wrapper">
+  <canvas
+  class="align-items-center"
+  *ngIf="barChartData"
+  baseChart
+  [data]="barChartData"
+  [options]="barChartOptions"
+  [type]="barChartType"
+  width="214"
+  height="240"
+>
+</canvas>
+
+</div> -->
+
+
+<div class="chart-container d-flex gap-5">
+    <h5 class="mb-3">Visits</h5>
+  
+    <ul class="time-range d-flex list-unstyled gap-3">
+      <li
+        *ngFor="let range of timeRanges"
+        [class.active]="selectedRange === range.value"
+        (click)="onTimeRangeClick(range.value)"
+      >
+        {{ range.label }}
+      </li>
+    </ul>
+  </div>
+  
+  <div class="chart-wrapper">
+    <canvas
+      *ngIf="barChartData"
+      baseChart
+      [data]="barChartData"
+      [options]="barChartOptions"
+      [type]="barChartType"
+    >
+    </canvas>
+  </div>
+  

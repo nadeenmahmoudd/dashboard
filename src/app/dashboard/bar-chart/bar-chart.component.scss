@@ -1,0 +1,16 @@
+.time-range li {
+    cursor: pointer;
+    color: #6c757d; 
+    font-weight: 500;
+  }
+  
+  .time-range li.active {
+    color: #0561FC;
+    border-bottom: 2px solid #0561FC;
+  }
+  .chart-wrapper {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+  }
+  

@@ -1,0 +1,47 @@
+{
+    "D": {
+      "labels": ["M", "T", "W", "T", "F", "S", "S"],
+      "datasets": [
+        {
+          "label": "Visits",
+          "data": [30, 45, 20, 60, 80, 55, 75],
+          "backgroundColor": "#3A75FF",
+          "borderRadius": 5
+        }
+      ]
+    },
+    "W": {
+      "labels": ["W-1", "W-2", "W-3", "W-4"],
+      "datasets": [
+        {
+          "label": "Visits",
+          "data": [150, 200, 250, 300],
+          "backgroundColor": "#3A75FF",
+          "borderRadius": 5
+        }
+      ]
+    },
+    "M": {
+      "labels": ["J", "F", "M", "A"],
+      "datasets": [
+        {
+          "label": "Visits",
+          "data": [800, 1000, 1200, 1500],
+          "backgroundColor": "#3A75FF",
+          "borderRadius": 5
+        }
+      ]
+    },
+    "Y": {
+      "labels": ["2021", "2022", "2023"],
+      "datasets": [
+        {
+          "label": "Visits",
+          "data": [5000, 7000, 9000],
+          "backgroundColor": "#3A75FF",
+          "borderRadius": 5
+        }
+      ]
+    }
+  }
+  

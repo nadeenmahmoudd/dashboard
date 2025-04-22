@@ -1,0 +1,28 @@
+<div class="container">
+    <h5 class="ms-4 mt-4">Analytics</h5>
+  
+    <div class="cards">
+      <div class="card" *ngFor="let item of analyticsData">
+        <div class="d-flex gap-2 align-items-center">
+          <img [src]="item.icon" alt="icon" style="width: 50px; height: 50px;" />
+          <div>
+            <p class="text-muted title">{{ item.title }}</p>
+            <div>
+              <span class="fw-bold">{{ item.value }}</span>
+              <span 
+                *ngIf="item.change" 
+                class="badge ms-2"
+                [ngClass]="{
+                  'bg-success': item.changeType === 'increase',
+                  'bg-danger': item.changeType === 'decrease'
+                }"
+              >
+                {{ item.change }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
