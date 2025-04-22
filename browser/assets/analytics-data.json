@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Total Sales",
+      "value": "$52.6K",
+      "icon": "assets/images/Icon_Total_Revenue.png",
+      "change": "+3.4%",
+      "changeType": "increase"
+    },
+    {
+      "title": "Today Revenue",
+      "value": "$1024",
+      "icon": "assets/images/Icon_Today Revenue.png",
+      "change": "-5.5%",
+      "changeType": "decrease"
+    },
+    {
+      "title": "Items Sold",
+      "value": "22",
+      "icon": "assets/images/Icon_Sales.png"
+    },
+    {
+      "title": "User Active",
+      "value": "11",
+      "icon": "assets/images/Icon_Users.png"
+    }
+  ]
+  

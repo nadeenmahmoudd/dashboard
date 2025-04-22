@@ -1,0 +1,51 @@
+[
+    {
+      "name": " S20 altra",
+      "quantity": 2,
+      "date": "2025-04-19",
+      "price": 99.99,
+      "status": "Approved",
+      "image": "assets/images/mobile-samsung.jpg"
+    },
+    {
+      "name": "Lenovo ",
+      "quantity": 1,
+      "date": "2025-04-18",
+      "price": 49.99,
+      "status": "Pending",
+      "image": "assets/images/laptop-1.jpg"
+    },
+    {
+      "name": " Samsung phone case",
+      "quantity": 3,
+      "date": "2025-04-17",
+      "price": 199.99,
+      "status": "In Progress",
+      "image": "assets/images/phone-case.jpg"
+    },
+    {
+      "name": " Mobile Phone",
+      "quantity": 8,
+      "date": "2025-03-15",
+      "price": 20000,
+      "status": "In Progress",
+      "image": "assets/images/mobile-samsung.jpg"
+    },
+    {
+      "name": " Phone Case",
+      "quantity": 54,
+      "date": "2025-04-3",
+      "price": 50,
+      "status": "Approved",
+      "image": "assets/images/phone-case.jpg"
+    },
+    {
+      "name": "Laptop",
+      "quantity": 3,
+      "date": "2025-04-17",
+      "price": 199.99,
+      "status": "Pending",
+      "image": "assets/images/laptop-1.jpg"
+    }
+  ]
+  
